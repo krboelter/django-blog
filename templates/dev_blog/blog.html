@@ -1,0 +1,6 @@
+{% block content%}
+<p>Hello from Blog</p>
+{% for entry in entries %}
+    <p>{{ entry.title }}</p>
+{% endfor %}
+{% endblock %}
